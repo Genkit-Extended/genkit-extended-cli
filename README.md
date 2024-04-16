@@ -6,20 +6,25 @@ Contribution is welcome.
 
 ---
 
-
-## Upcoming features
+# Upcoming features
 - Vector Store HNSW RAG Training
 - Prompt optimization management
 - Vector Store model deployment and management
 
-## Install
+# Installation
 
     $ npm install -g genkit-extended-cli
 
-
+# Usage
 ## Install Genkit
 
-    $ genkit-extended install genkit
+    $ genx install genkit
+
+## Data Training
+
+    $ genx train --path="train/*" --output="train/output-model"
+
+This will add knowledges for RAG based on all text resources within the specified folder
 
 ## Command Help
 
