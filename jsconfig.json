@@ -1,0 +1,15 @@
+{
+  "compilerOptions": { 
+    "module": "commonjs",
+    "target": "es6",  
+    "baseUrl": ".",
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "paths": {
+      "@astrophel-cli/*": ["*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
